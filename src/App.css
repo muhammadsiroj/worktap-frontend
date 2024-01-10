@@ -1,0 +1,1446 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+.NotFoundBox{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 150px;
+}
+.NotFoundH1{
+    font-size: 200px;
+}
+.AuthNavbarBoxLeftLi{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.AuthNavbarBoxLeftBtn{
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #1DBF73;
+    color:  #F2F0FE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
+.AuthNavbarBoxLeftBtn:hover{
+    display: inline-flex;
+    padding: 15px 30px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #F2F0FE;
+    color:  #1DBF73;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.AuthNavbarBoxRight{
+    display: flex;
+    gap: 30px;
+}
+.AuthNavbarBoxLeft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.AuthNavbarBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+header{
+    padding: 50px 0;
+    background: #F7F6FF;
+}
+.AuthHeaderBoxLeft{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.AuthHeaderBoxLeftH1{
+    color: #222;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.AuthHeaderBoxLeftSpan{
+    color: var(--green, #1DBF73);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+
+}
+.AuthHeaderBoxLeftP{
+    color: var(--black, #222);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.AuthHeaderBoxLeftSearchBox{
+    height: 60px;
+    width: 500px;
+    border-radius: 50px;
+    background: #F2F0FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin: 20px 0;
+}
+.AuthHeaderBoxLeftInp{
+    color:#656084;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: none;
+    padding: 0 0 0 20px;
+    outline: none;
+    border: none;
+}
+.AuthHeaderBoxLeftBtn{
+    border-radius: 50px;
+    border: 3px solid  #F2F0FE;
+    background:  #FBA457;
+    width: 154px;
+    height: 60px;
+    color: #FFF;
+    font-size: 20px;
+}
+.AuthHeaderBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AuhtHeaderLeftCategoryBoxRightbtn{
+    border-radius: 50px;
+    border: 1px solid #777777;
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    background: none;
+    font-size: 16px;
+    margin: 5px;
+}
+.AuhtHeaderLeftCategoryBoxRightbtn:hover{
+    border-radius: 50px;
+    border: 1px solid #1DBF73;
+    display: inline-flex;
+    padding: 12px 22px;
+    color: #1DBF73;
+    transition: 0.1s;
+    align-items: flex-start;
+    background: none;
+    font-size: 16px;
+    margin: 5px;
+}
+.AuhtHeaderLeftCategoryBoxRight{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px ;
+}
+.AuhtHeaderLeftCategoryBoxleftbtn{
+        border-radius: 50px;
+        border: 1px solid #FBA457;
+        display: inline-flex;
+        padding: 10px 20px;
+        align-items: flex-start;
+        background: none;
+        margin: 5px;
+        color: #FBA457;
+}
+.AuthHeaderBoxLeftH2{
+    color: #222;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.AuthHeaderBoxLeftCategory{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.AuthMainWorkTopImg{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+.AuthMainWorkTop{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.AuthMainWork{
+    margin: 10px 0;
+    width: 380px;
+    height: 250px;
+    border: 1px solid  #F2F0FE;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    justify-content: center;
+}
+.AuthMainWorkTopP{
+    width: 350px;
+    color:  #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.AuthMainWorkBox{
+    width: 350px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.AuthMainWorkBoxBtn{
+    width: 350px;
+    height: 40px;
+    border: 3px solid #1DBF73;
+    border-radius: 50px;
+    color: #1DBF73;
+    font-size: 18px;
+    background: none;
+}
+.AuthMainWorkBoxBtn:hover{
+    width: 350px;
+    height: 40px;
+    border: 3px solid #1DBF73;
+    border-radius: 50px;
+    color: #fff;
+    transition: 0.2s;
+    font-size: 18px;
+    background: #1DBF73;
+}
+.boxx{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.AuhtHeaderLeftCategoryBoxleftbtn1{
+    width: 380px;
+    margin: 10px 0;
+    height: 250px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #1DBF73;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid  #F2F0FE;
+    background: #F2F0FE;
+}
+.AuthMainWorkTopH1{
+    color: #222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+main{
+    background:  #F6FAFD;
+}
+.AuthMainFirst{
+    padding: 50px 0;
+}
+nav{
+    background: #F7F6FF;
+}
+.AuthMainTopFrilanserBoxImgName{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.AuthMainTopFrilanserBoxImg{
+    display: flex;
+    gap: 20px;
+}
+.AuthMainTopFrilanserBoxImgImg{
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+}
+.AuthMainTopFrilanser{
+    display: flex;
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.AuthMainTopFrilanserBoxImgNameH1{
+    color:  #222;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.TopFrilanserBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.AuthMainTopFrilanserBoxImgNameH2{
+    color:  #FBA457;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.AuthMainTopFrilanserBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.AuthMainTopFrilanserBoxBtn{
+    transition: 0.2s;
+    width: 340px;
+    height: 41px;
+    color: #1DBF73;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid var(--green, #1DBF73);
+    background: none;
+}
+.AuthMainTopFrilanserBoxBtn:hover{
+    width: 350px;
+    height: 41px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 100px;
+    border: 1px solid var(--green, #1DBF73);
+    background: var(--green, #1DBF73);
+}
+.AuthMainSecondTopH1{
+    color:  #222;
+    font-size: 36px;
+    margin: 20px 0;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.FooterBoxBottomH1{
+    color: #222;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+.FooterBoxBottom{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.FooterBoxTopFouthImages{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.FooterBoxTop{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background: #F2F0FE;
+    padding: 50px 0;
+}
+.FooterBoxTopFirstH1,
+.FooterBoxTopSecondH1,
+.FooterBoxTopThirdH1,
+.FooterBoxTopFouthH1{
+    color: var(--black, #222);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.FooterBoxTopFirstLi,
+.FooterBoxTopSecondLi,
+.FooterBoxTopThirdLi{
+    color:  #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.FooterBoxTopFirst,
+.FooterBoxTopSecond,
+.FooterBoxTopThird,
+.FooterBoxTopFouth{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.AuthMainThirdBoxLeftH1{
+    color:#222;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.AuthMainThirdBoxLeftP{
+    color: var(--black, #222);
+    width: 379px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.AuthMainThirdBoxCenterP{
+    color: var(--black, #222);
+    width: 350px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.AuthMainThirdBox{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.AuthMainThirdBoxLeft,
+.AuthMainThirdBoxCenter,
+.AuthMainThirdBoxRight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.AuthMainThirdBoxLeftImg,
+.AuthMainThirdBoxCenterImg,
+.AuthMainThirdBoxRightImg{
+    width: 80px;
+}
+.AuthMainThirdBoxCenter{
+    margin: 15px 0 0 0;
+}
+.AuthMainThird{
+    padding: 70px 0;
+}
+.AuthMainThirdH1{
+    color: #222;
+    font-size: 34px;
+    font-style: normal;
+}
+.AuthMainThirdP{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    margin: 10px 0;
+}
+.BackBox{
+    height:730px;
+    background: url("./images/back.png");
+}
+.BackBoxInFirst,
+.BackBoxInSecond,
+.BackBoxInThirt{
+    padding: 15px 15px 15px 25px;
+    border-radius: 15px;
+    margin: 10px 0;
+    width: 500px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.BackBoxFirstH1{
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.BackBoxInH1{
+    color:#F6FAFD;
+    font-size: 26px;
+    font-style: normal;
+}
+.BackBoxInBtn{
+    padding: 20px 60px;
+    width: 200px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    gap: 10px;
+    border-radius: 50px;
+    background: #5E4EDB;
+}
+.BackBoxIn{
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+label{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.Register{
+    display: flex;
+    height: 750px;
+    justify-content: center;
+}
+.RegisterLeft{
+    width: 100%;
+
+}
+.RegisterRight{
+    background:url("./images/opa.png");
+    background-size: 100%;
+    width: 100%;
+    background-repeat:no-repeat;
+}
+.RoleBox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.inputH1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Role{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.RoleBoxH1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.RoleBoxInp{
+    width:20px;
+    height: 20px;
+}
+.RoleBoxInp:checked{
+    appearance: none;
+    border-radius: 50%;
+    background-color: #1DBF73;
+    border: 1px solid #fff;
+}
+.RegisterLink{
+    color: #000;
+    text-align: center;
+    margin:0 100px 0 0 ;
+}
+.RegisterLinkSpan{
+    color: #FBA457;
+}
+.RegisterLeftBox{
+    padding: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.RegisterLeftImg{
+    width: 250px;
+}
+.RegisterLeftForm{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.RegisterLeftBox{
+    width: 500px;
+    margin: 0 auto;
+}
+.RegisterLeftFormDiv input{
+    padding:0 0 0 10px ;
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #F2F0FE;
+}   
+.RegisterBtn{
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    background: #1DBF73;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+.RegisterRightBox{
+    position: absolute;
+    top: 500px;
+    left: 755px;
+    background: #fff;
+    width: 500px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.Login{
+    display: flex;
+    height: 100vh;
+}
+.LoginLeft{
+    width: 100%;
+}
+.LoginRight{
+    width: 100%;
+    background:url('./images/opa.png');
+    background-size: 100%;
+}
+.LoginLeftLogo{
+    padding:0 0 100px  0 ;
+}
+.LoginLeftBox{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.LoginLeftBoxForm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.loginInpRadio{
+    display: flex;
+    gap: 10px;
+}
+.UserImage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+                    
+.Map{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ProfilhNavbarBoxRight{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ProfilName{
+    padding: 0 0 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderBox{
+    display: flex;
+    justify-content: space-between;
+}
+.surnameSpan{
+    color: #1DBF73;
+}
+.whoH1{
+    color: #FBA457;
+    font-size: 22px;
+}
+.strana{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.stranaImg{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.stranaImgImg{
+    width: 20px;
+    height: 20px;
+}
+.stranaImgH1{
+    font-size: 18px;
+    font-weight: 400;
+}
+.stranaH1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.accordion-section{
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #F2F0FE;
+}
+.accordion-content{
+    padding: 30px 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.accordion-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-title img{
+    width: 20px;
+}
+@keyframes rotateIcon {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .rotate-animation {
+    transition: transform 0.3s ease-in-out;
+    animation: rotateIcon 0.3s ease-in-out forwards;
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotateZ(180deg);
+    }
+    100% {
+      transform: rotateZ(0deg);
+    }
+  }
+  
+  .rotate {
+    transition: transform 0.3s ease-in-out;
+    animation: rotate 0.3s ease-in-out forwards;
+  }
+.HeaderLeftDes{
+    width: 600px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.HeaderLeft{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.HeaderRightImg{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    width: 350px;
+    height: 350px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 2;
+}
+.HeaderRightStar{
+    position: absolute;
+    top: 455px;
+    left: 910px;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 2;
+    box-shadow: 1px 5px 10px  1px rgba(0, 0, 0, 0.5);
+
+}
+.HeaderRightImgDumaloq{
+    position: absolute;
+    top: 330px;
+    left: 1080px;
+    z-index: 1;
+}
+.HeaderRightImgDumaloq2{
+    position: absolute;
+    top: 120px;
+    left: 720px;
+}
+.HeaderRightImgnuqta{
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}
+.HeaderRightImgczq{
+    position: absolute;
+    top: 230px;
+    left: 1105px;
+    z-index: 2;
+}
+.HeaderRightImgBtn{
+    position: absolute;
+    top: 150px;
+    left: 1080px;
+    z-index: 2;
+    width: 55px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.04);
+}
+.accordion-title{
+    cursor: pointer;
+}
+.ProfilMainBoxCreateH1{
+    color: #1DBF73;
+}
+.ProfilMainBoxCreate{
+    width: 280px;
+    height: 230px;
+    margin: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.ProfilMainBoxCreateH1{
+    font-size: 30px;
+}
+.ProfilMainBoxCreate:hover{
+    transition: 0.5s;
+   background: #D7FFEC;
+   border-radius: 20px;
+}
+.ProfilMainBtn{
+    margin: 0 auto;
+    background: none;
+    border-radius: 50px;
+    border: 2px solid #1DBF73;
+    color: #1DBF73;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.ProfilMainBtn:hover{
+    background: #1DBF73;
+    color: #fff;
+    transition: 0.3s;
+}
+.ProfilMainBoxBtn{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.ProfilMainBoxJob{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+}
+.ProfilMainBoxJobData{
+    width: 280px;
+    height: 230px;
+    background: #F6FAFD;
+    flex-wrap: wrap;
+    margin: 5px 5px;
+    border: 1px solid #F2F0FE;
+    box-shadow: 0px 12px 14px -4px rgba(34, 60, 80, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ProfilMainBoxJobDataImg{
+    width: 280px;
+    height: 150px;
+    border-radius: 20px 20px 0 0 ;
+}
+.ProfilMainBoxJobDataH1{
+    font-size: 24px;
+    padding:10px 0 0 15px;
+}
+.ProfilMainBoxJobDataH2{
+    color: #1DBF73;
+    padding:5px 0 0 15px;
+}
+.NegativeBtn{
+    background: none;
+    border: none;
+    color: #1DBF73;
+    transition: 0.1s;
+    font-size: 18px;
+}
+.PositiveBtn{
+    color: #000;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+.ProfilMainTopBtn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ProfilMainTopBtnH1{
+    color: #000;
+    padding: 20px 0;
+}
+.ProfilReviewBoxBtn{
+    display: flex;
+}
+.ReviewBoxTopBoxImg{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.ReviewBoxTop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ReviewBoxTopH1{
+    font-size: 20px;
+}
+.Review{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ReviewBox{
+    width: 350px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 3px 4px 24px -12px rgba(34, 60, 80, 0.6);
+}
+.ReviewBoxBottomP{
+    width: 350px;
+    font-size: 13px;
+}
+main{
+    background: #F6FAFD;
+}
+.ProfilReviewBtn{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.SettingForm{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+input::file-selector-button {
+    visibility: hidden;
+  }
+.SettingInp7::before {
+    content: "upload image";
+    display: inline-block;
+    background:none;
+    text-align: center;
+    padding:5px 45px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #000;
+    border: 2px solid #5E4EDB;
+    margin-left: 20px;
+}
+.SettingInp{
+    width: 200px;
+    height: 30px;
+    padding: 0 0 0 10px ;
+    color: #000;
+    border: 2px solid #5E4EDB;
+}
+.SettingBtn{
+    background: #5E4EDB;
+    width: 215px;
+    border: 2px solid #5E4EDB;
+    height: 30px;
+    color: #fff;
+    font-size: 17px;
+}
+.FastSearch{
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 120px;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    border-radius: 0 50px 50px 0;
+    gap: 5px;
+    align-items: center;
+    background: #FBA457;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+}
+.FastBoxOneBtn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+.FastBoxOne{
+    padding:100px 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.FastBoxFour{
+    padding: 20px 0;
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.FastCategoryBtn{
+    margin: 3px;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid #F2F0FE;
+    border-radius: 50px;
+    font-size: 16px;
+}
+.FastCategoryBtn:hover{
+    border:1px solid #FBA450;
+}
+.FastBoxThreeBox{
+    width: 500px;
+    height: 60px;
+    border-radius: 50px;
+    background: #F2F0FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    margin: 20px 0;
+    margin: 0 auto;
+}
+.FastBoxThree{
+    padding: 30px 0;
+}
+.FastBoxTwoH1{
+    width: 850px;
+    text-align: center;
+}
+.FastBoxOTwo{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.FastBoxTwoH1Span{
+    color: #1DBF73;
+}
+.StockBoxFour{
+    padding: 20px 0;
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.FastBoxTwo{
+    display: flex;
+    justify-content: center;
+    padding: 70px 0 20px 0;
+
+}
+.oneImageBox{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.oneImageBoxImg{
+    width: 850px;
+}
+.CreateWorkInpH1,
+.CreateWorkSelectH1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.CreateWorkInpInp,
+.CreateWorkSelectSelect{
+    padding:10px 0 0 15px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #F2F0FE;
+    font-size: 20px;
+}
+.CreateWorkInp{
+    padding: 10px;
+}
+.CreateWorkOneBtnBtn,
+.CreateWorkBtnBoxBtn2{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background: #1DBF73;
+    font-size: 20px;
+}
+.CreateWorkOneBtn{
+    padding: 100px 0 0 0 ;
+    display: flex;
+    justify-content:end;
+}
+.CreateWorkBox{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.CreateWorkBtnBoxBtn{
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #656084;
+}
+.CreateWorkBtnBox{
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.CreateWorkBox1{
+    padding:20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid #F2F0FE;
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+.CreateWorkBoxSelect{
+    width: 300px;
+    outline: none;
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    background: none;
+}
+.CreateWorkBoxH1{
+    color: #222;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+}
+.CreateWorkBoxBtn{
+    width: 300px;
+    height: 50px;
+    border:none;
+    border-radius: 30px;
+    color: #656084;
+    font-size: 20px;
+    background: #EBE8FF;
+}
+.CreateWorkBoxInpBox{
+    padding: 10px 0;
+}
+.CreateWorkBoxInp1{
+    width: 300px;
+    padding: 10px 0 50px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #F2F0FE;
+    font-size: 18px;
+    background: none;
+}
+.CreateWorkBoxInp2{
+    width: 300px;
+    padding: 10px 0 10px 10px;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #F2F0FE;
+    font-size: 18px;
+}
+.CreateWorkBoox{
+    background: #F6FAFD;
+}
+textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #F2F0FE;
+    background: none;
+    font-size: 16px;
+}
+.CreateWorkFourH1{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CreateWorkFourH12{
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.CreateWorkFourBox{
+    padding: 40px;
+}
+.CreateWorkFiveH1{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CreateWorkFiveP{
+    width: 500px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.CreateWorkFiveBoxH1{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.CreateWorkFiveBoxP{
+    width: 520px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#form-file-upload {
+    height: 200px;
+    width: 200px;
+  }
+  
+  #input-file-upload {
+    display: none;
+  }
+  
+  #label-file-upload {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #EBE8FF;
+  }
+  
+  .upload-button {
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: #FBA450;
+  }
+.CreateWorkImgBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.CreateWorkImg{
+    width: 70px;
+    height: 70px;
+}
+.CreateWorkFiveBox{
+    padding: 50px 0;
+}
+.CreateWorkSix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.NavbarAccardionBox{
+    padding: 7px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
+.NavbarAccardion{
+    width: 295px;
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 982px;
+    background: #F2F0FE;
+    border-radius: 20px;
+}
+.NavbarAccardions{
+    width: 295px;
+    position: absolute;
+    z-index: 3;
+    top: 15px;
+    left: 980px;
+}
+.accordion-contenta{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.accordion-contentLink5{
+    color: red;
+}
+.AccordionContentLink{
+    color: #000;
+}
+.CreateWorkOneBtn{
+    padding: 50px 0;
+}
+.CreateWorkBox{
+    padding: 59px 0;
+}
+.btnH1{
+    font-size: 20px;
+    color: #FBA450;
+    cursor: pointer;
+}
+.StockMainBoxNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.StockMainBoxNav2{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.StockMainBoxNav2H1{
+    color: #777777;
+    margin-bottom: 30px;
+}
+.StockMainBoxNav2Inp{
+    padding: 0 0 0 25px ;
+    height: 40px;
+    outline: none;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid #F2F0FE;
+}
+.stockCardLeftBox{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.stockCardLeftBoxImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 2px solid #1DBF73;
+}
+.stockCardLeftH1{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.stockCard{
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    }
+.stockCard:hover{
+    transition: 0.2s;
+    box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.19);
+}
+    .stock{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.stockCardLeftBoxInH1{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.stockCardRightH1{
+    color: #1DBF73;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.StockNotFound{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #1DBF73;
+}
+.FastBoxFive{
+    padding: 70px 0;
+}
